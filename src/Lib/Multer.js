@@ -14,7 +14,6 @@ var storageProfile = multer.diskStorage({
 
 export const upLoadsProfile = multer({ storage: storageProfile });
 
-
 var storageProducts = multer.diskStorage({
 
     destination: ( req, res, cb ) => {
